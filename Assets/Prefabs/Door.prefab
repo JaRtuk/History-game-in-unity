@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3083332160141054960}
   - component: {fileID: 3083332160141054963}
   - component: {fileID: 3083332160141054962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3083332160141054965}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.65, y: -1.69, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 9.79, y: 10.805, z: 0}
+  m_LocalScale: {x: 0.42, y: 1.5744109, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -143,13 +143,13 @@ HingeJoint2D:
   m_GameObject: {fileID: 3083332160141054965}
   m_Enabled: 1
   serializedVersion: 4
-  m_EnableCollision: 0
+  m_EnableCollision: 1
   m_ConnectedRigidBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0.25, y: -0.5}
-  m_ConnectedAnchor: {x: -8.65, y: -1.69}
+  m_Anchor: {x: -0.01796681, y: -0.50662404}
+  m_ConnectedAnchor: {x: 9.782454, y: 10.020063}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
